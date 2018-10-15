@@ -1,0 +1,145 @@
+
+
+/*头部图片*/
+.head-img {
+	overflow: hidden;
+    width:100% ;
+}
+
+.head-img img{
+	width: 100%;
+	height:auto;
+}
+/*当分辨率小于767px*/
+@media  (max-width:767px ) {
+	.head-img{
+		margin-top: 60px;
+	}
+	
+}
+
+/*中间列表*/
+.zqf-all{
+	width: 100%;
+}
+
+
+
+
+@media (max-width: 991px) {
+	.zqf-all ul{
+    width: 300px;
+	margin:0 auto;
+   }
+	
+}
+
+.zqf-all li{
+	float: left;
+}
+
+.zqf-all li {
+	display: block;
+	padding:14px ;
+	font-size: 16px;
+		
+}
+
+.zqf-all li a{
+   color: #2a333c;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+
+.zqf-all form{
+	position: relative;
+	/*background: pink;*/
+	text-align: center;
+	margin-top: 7px;
+	
+}
+@media  (max-width:991px ) {
+	.zqf-all form{
+		margin-bottom:10px;
+	}
+	
+}
+
+.zqf-all input{
+	width: 100%;
+	padding: 8px 10px;
+	padding-right: 50px;
+	border: none;
+	background: none;
+	border: 1px solid #ebeff1;
+	border-radius: 200px;
+	outline: none;
+
+}
+
+.zqf-all button{
+	position: absolute;
+	border: none;
+	background: none;
+	right: 28px;
+	top: 13px;
+}
+
+/*中间图片列*/
+.zqf-show{
+	background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.zqf-show ul{
+  
+    margin-top: 22px;
+	
+}
+.zqf-show li{
+   
+    margin-bottom: 22px;
+	margin-top: 22px;
+
+}
+.zqf-show li img{
+	width: 100%;
+}
+
+@media (min-width: 991px) {
+	.zqf-show li img{
+		height:212px;	
+	}
+	
+}
+
+.zqf-show li p{
+	padding: 14px;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+}
+
+.zqf-show li p a{
+	color: #2a333c;
+	font-size: 16px;
+}
+
+.zqf-show .page{
+	text-align: center;
+	} 
+	
+.zqf-show .page a{
+	border: 1px solid #e4eaec;
+    border-right: none;
+    background: #fff;
+    padding: 9px 15px;
+    text-align: center;
+    color: #76838f;
+	}
+
+
+
+
+
