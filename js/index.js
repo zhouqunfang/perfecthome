@@ -88,7 +88,7 @@ $('.obtn-top').click(function(){
 					num=0;
 				}
 				$('.imgroll').css('left', -num+'px');
-			},300)
+			},320)
 		}
 gogo();
 
